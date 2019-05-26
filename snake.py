@@ -115,7 +115,7 @@ class App:
         self._snake_body = None
         self.game = Game()
         self.Snake = Snake(1)
-        self.Snake.set_level(int(raw_input("Enter the level you would like to play at [1 to 5]: ")))
+        self.Snake.set_level(int(input("Enter the level you would like to play at [1 to 5]: ")))
         self.Fruit = Fruit(10, 10)
         self.score = 0
         self.isHead = True
